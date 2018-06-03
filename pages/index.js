@@ -1,10 +1,13 @@
 import React from 'react'
+import Layout from '../components/shared/Layout'
 
 
 export default class Index extends React.Component {
     render () {
         return (
-            <div>INDEX</div>
+            <Layout>
+                <h1>Index</h1>
+            </Layout>
         )
     }
 }
