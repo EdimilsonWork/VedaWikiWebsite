@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "author": "Stars Aligned",
   "license": "UNLICENSED",
+  "description": "Veda Wiki universal React web app",
   "repository": "https://github.com/RenanCD/VedaWikiWebsite",
   "scripts": {
     "dev": "next",
@@ -23,7 +24,7 @@
     "react-apollo": "^2.1.4",
     "react-dom": "^16.3.2",
     "semantic-ui-css": "^2.3.1",
-    "semantic-ui-react": "^0.81.0",
+    "semantic-ui-react": "^0.80.2",
     "url-loader": "^1.0.1"
   }
 }
