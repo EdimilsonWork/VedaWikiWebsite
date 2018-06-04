@@ -20,7 +20,7 @@ export default class Footer extends React.PureComponent {
                     </Grid.Row>
                     <Grid.Row color='black' textAlign='center' style={{padding:'0px'}}>
                         <Grid.Column>
-                            <Segment color='black' inverted style={{padding:'0px',fontSize:'11px',color:'#a9a9a9 !important'}}>Copyright © 2018 Learning Web. All rights reserved.</Segment>
+                            <Segment color='black' inverted style={{padding:'0px',fontSize:'11px',color:'#a9a9a9 !important'}}>Copyright © 2018 Veda Wiki. All rights reserved.</Segment>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>

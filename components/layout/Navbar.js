@@ -9,7 +9,7 @@ class Navbar extends React.Component {
         return (
             <Menu stackable id='navbar' style={{borderRadius: 0}}>
                 <Menu.Item header style={{fontFamily: 'Encode Sans', paddingTop: '11px', paddingBottom: '11px', fontSize: '18px'}}>
-                    <span style={{color: '#FF9800'}}>Veda Wiki</span>
+                    <span style={{color: '#FF9800'}}>Veda</span>
                 </Menu.Item>
 
                 <Link href='/'>
