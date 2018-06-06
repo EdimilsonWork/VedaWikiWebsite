@@ -20,14 +20,14 @@ export default class Footer extends React.PureComponent {
                             <Segment color='black' inverted>
                                 <h5>Social media</h5>
                                 <div>
-                                    <a href="" title="Facebook page" style={{marginLeft:'5px',marginRight:'5px'}}><Icon bordered inverted color='blue' name='facebook' /></a>
-                                    <a href="" title="Twitter" style={{marginLeft:'5px',marginRight:'5px'}}><Icon bordered inverted color='blue' name='twitter' /></a>
-                                    <a href="" title="Github repository" style={{marginLeft:'5px',marginRight:'5px'}}><Icon bordered inverted color='blue' name='github' /></a>
-                                    <a href="" title="Contact email" style={{marginLeft:'5px',marginRight:'5px'}}><Icon bordered inverted color='blue' name='mail' /></a>
+                                    <a href="https://www.facebook.com/vedawiki/" target="_blank" title="Facebook page" style={{marginLeft:'5px',marginRight:'5px'}}><Icon bordered inverted color='blue' name='facebook' /></a>
+                                    <a href="https://twitter.com/vedawiki" target="_blank" title="Twitter" style={{marginLeft:'5px',marginRight:'5px'}}><Icon bordered inverted color='blue' name='twitter' /></a>
+                                    <a href="https://github.com/RenanCD" target="_blank" title="Github repository" style={{marginLeft:'5px',marginRight:'5px'}}><Icon bordered inverted color='blue' name='github' /></a>
+                                    <a href="" target="_blank" title="Contact email" style={{marginLeft:'5px',marginRight:'5px'}}><Icon bordered inverted color='blue' name='mail' /></a>
                                 </div>
                                 <h5>Developed by</h5>
-                                <strong style={{fontFamily: 'Encode Sans',color: '#FF9800'}}>
-                                    Stars<br/>Aligned
+                                <strong>
+                                    <a href="" style={{fontFamily: 'Encode Sans',color: '#FF9800'}}>Stars<br/>Aligned</a>
                                 </strong>
                             </Segment>
                         </Grid.Column>
