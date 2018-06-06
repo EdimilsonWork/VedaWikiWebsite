@@ -13,7 +13,7 @@ class Navbar extends React.Component {
                 </Menu.Item>
 
                 <Link href='/'>
-                    <Menu.Item as="a" href='/' active={this.props.router.pathname === '/'}>News</Menu.Item>
+                    <Menu.Item as="a" href='/' active={this.props.router.pathname === '/'}>Home</Menu.Item>
                 </Link>
 
                 <Link href='/sets'>

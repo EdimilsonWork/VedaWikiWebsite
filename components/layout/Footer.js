@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Segment } from 'semantic-ui-react'
+import { Grid, Segment, Icon, Container } from 'semantic-ui-react'
 
 
 export default class Footer extends React.PureComponent {
@@ -19,7 +19,12 @@ export default class Footer extends React.PureComponent {
                         <Grid.Column>
                             <Segment color='black' inverted>
                                 <h5>Social media</h5>
-                                <p>F T G E</p>
+                                <div>
+                                    <a href="" title="Facebook page" style={{marginLeft:'5px',marginRight:'5px'}}><Icon bordered inverted color='blue' name='facebook' /></a>
+                                    <a href="" title="Twitter" style={{marginLeft:'5px',marginRight:'5px'}}><Icon bordered inverted color='blue' name='twitter' /></a>
+                                    <a href="" title="Github repository" style={{marginLeft:'5px',marginRight:'5px'}}><Icon bordered inverted color='blue' name='github' /></a>
+                                    <a href="" title="Contact email" style={{marginLeft:'5px',marginRight:'5px'}}><Icon bordered inverted color='blue' name='mail' /></a>
+                                </div>
                                 <h5>Developed by</h5>
                                 <strong style={{fontFamily: 'Encode Sans',color: '#FF9800'}}>
                                     Stars<br/>Aligned
@@ -30,7 +35,7 @@ export default class Footer extends React.PureComponent {
                             <Segment color='black' inverted>
                                 <h5>Open Source Technologies</h5>
                                 <p>
-                                    <a href=''>React JS</a><br/>
+                                    <a href=''>React</a><br/>
                                     <a href=''>Django</a><br/>
                                     <a href=''>Python</a><br/>
                                     <a href=''>Graphene</a><br/>
